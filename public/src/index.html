@@ -8,8 +8,13 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <h1>Pokemon</h1>
-    <h2>The Kanto Region</h2>
+    <div class="banner-background">
+      <div class="h1">
+        <img src="../assets/Pokemon Logo.png" alt="pokemon logo">
+      </div>
+      <h2>The Kanto Region</h2>
+    </div>
+
     <section class="collection-container container-header">
       <div id="collection-header">
         <h4>My Collection:</h4>
@@ -20,6 +25,7 @@
       </div>
       <div class="collection-border"></div>
     </section>
+
     <h4 class="title">All Pokemon:</h4>
     <div class="button-container">
       <button id="sort-button-az-pokemon">Sort Pokemon A-Z</button>
@@ -29,8 +35,6 @@
     <p>Total Poison Type: <span id="poison-type"></span></p>
 
     <section class="pokemon-container container-header">
-      <div class="pokemon-header"></div>
-      <div id="pokemon-name"></div>
     </section>
 
     <script src="./js/btn.js"></script>

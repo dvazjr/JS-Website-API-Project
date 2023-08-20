@@ -39,11 +39,14 @@ const getNamesArray = () => {
         const para = document.createElement('h4');
         para.textContent = name;
         pokemonCard.appendChild(para);
-      
+        
+        const imgContainer = document.createElement('div')
         const img = document.createElement('img');
         img.src = `https://img.pokemondb.net/sprites/black-white/anim/normal/${name.toLowerCase()}.gif`;
         img.alt = name;
-        pokemonCard.appendChild(img);
+        pokemonCard.appendChild(imgContainer);
+        imgContainer.className = 'img-container'
+        imgContainer.appendChild(img);
       
         const typeTitle = document.createElement('p');
         typeTitle.textContent = 'Type: ';
