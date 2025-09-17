@@ -10,7 +10,7 @@ h2 {
 
 .banner-background {
   background-image: url("../assets/Banner.png");
-  height: 19rem;
+  height: 24rem;
   background-size: cover;
 }
 
@@ -21,7 +21,7 @@ h2 {
 }
 
 .h1 img {
-  max-width: 37vh;
+  max-width: 50vh;
 }
 
 .collection-border {
@@ -151,7 +151,7 @@ a {
 
 @media only screen and (max-width: 750px) {
   h2 {
-    padding-top: 6rem;
+    padding-top: 10rem;
   }
   .banner-background {
     background-position: center;
