@@ -1,22 +1,18 @@
-
 h2,
 h4 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
 
 h2 {
   text-align: center;
   padding-top: 8rem;
 }
 
-
 .banner-background {
-background-image: url('../assets/Banner.png');
-background-size: cover;
-height: 32rem
+  background-image: url("../assets/Banner.png");
+  height: 19rem;
+  background-size: cover;
 }
-
 
 .h1 {
   display: flex;
@@ -25,8 +21,7 @@ height: 32rem
 }
 
 .h1 img {
-  max-width: 48vh;
-  overflow: auto;
+  max-width: 37vh;
 }
 
 .collection-border {
@@ -126,10 +121,9 @@ a {
   min-width: 170px;
   border-style: solid;
   border-color: #f2f505;
-  background: rgba(255, 255, 255, .5);
+  background: rgba(255, 255, 255, 0.5);
   outline-color: lightgrey;
   outline-style: groove;
-
 }
 
 .pokemonCard:hover {
@@ -155,15 +149,14 @@ a {
   color: #777;
 }
 
-@media only screen and (max-width: 750px) { 
-h2 {
-  padding-top: 6rem;
+@media only screen and (max-width: 750px) {
+  h2 {
+    padding-top: 6rem;
+  }
+  .banner-background {
+    background-position: center;
+  }
 }
-.banner-background {
-  background-position: center;
-}
-}
-
 
 @media only screen and (max-width: 508px) {
   .pokemon-container,
@@ -189,18 +182,16 @@ h2 {
   button {
     margin-left: 0;
   }
-  .pokemonCard > p, ul {
+  .pokemonCard > p,
+  ul {
     visibility: collapse;
   }
   .pokemonCard {
     height: 12rem;
-
   }
 }
 
 @media only screen and (max-width: 390px) {
-
-
   .pokemon-container,
   .collection-border,
   .container-header h4,
